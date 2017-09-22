@@ -71,8 +71,6 @@ public class DBDemo2 extends Frame implements ActionListener  {
 
 		ResultSet rs = s.getResultSet ();
 
-		System.out.println("Connected to database");
-
 		int count = listOutDatabaseContents(rs);
 
 		rs.close ();
